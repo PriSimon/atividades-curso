@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Work+Sans:wght@300;400&display=swap');/*título*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); /*texto*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Karla:wght@300&family=Work+Sans:wght@300;400&display=swap'); /* outros*/
+
+body{
+	background: #A67D4B;
+}
+body.segunda{
+	background-image: url(fundo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+
+/*TEXTO*/
+
+}
+h1{
+font-family: 'Aboreto', cursive;
+color: #592B02;
+font-size: 35pt;
+text-shadow: 5px 3px 5px #EBDAAC;
+text-align: center;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+	color: #592B02;
+	font-size: 18pt;
+	text-align: left;
+	margin-left: 5vw;
+	width: 50vw;
+	font-weight: bold;
+	line-height: 5vh;
+}
+
+
+
+h3{
+	font-family: 'Karla', sans-serif;
+	color: #592B02;
+	font-size: 20pt;
+	text-align: justify;
+	margin-left: 2vw;
+	width: 90vw;
+}
+
+
+h4{
+	font-family: 'Work Sans', sans-serif;
+	color: #EBDAAC;
+	font-size: 20pt;
+	text-align: left;
+	margin-left: 2vw;
+	width: 50vw;
+	text-shadow: 1px 1px 2px #592614;
+
+}
+h5{
+	font-family: 'Work Sans', sans-serif;
+	color: #EBDAAC;
+	font-size: 15pt;
+	text-align: justify;
+	margin-left: 2vw;
+	width: 90vw;
+	text-shadow: 1px 1px 2px #592614;
+}
+
+
+p{
+	font-family: 'Work Sans', sans-serif;
+	color: #592B02;
+	font-size: 15pt;
+	text-align: justify;
+	margin-left: 2vw;
+	width: 90vw;
+}
+
+a{
+	font-family: 'Karla', sans-serif;
+	color: #EBDAAC;
+	font-size: 18pt;
+	text-align: center;
+	margin-left: 16vw;
+	width: 90vw;
+	font-style: bold;
+	text-shadow: 1px 1px 2px #592614;
+}
+
+/*LISTA*/
+
+dl{
+	font-family: 'Work Sans', sans-serif;
+	color: #592B02;
+	font-size: 15pt;
+	text-align: justify;
+	margin-left: 5vw;
+	width: 50vw;
+}
+dt{
+	font-weight: bold;
+	line-height: 5vh;
+}
+
+/*TABELA*/
+
+tr.titulo{
+	font-family: 'Work Sans', sans-serif;
+	color: #592B02;
+	font-size: 20pt;
+	text-align: center;
+	margin-left: 5vw;
+	width: 50vw;
+	font-weight: bold;
+}
+
+td{
+	font-family: 'Work Sans', sans-serif;
+	color: #592B02;
+	font-size: 12pt;
+	text-align: center;
+	margin-left: 5vw;
+	width: 50vw;
+}
+
+/*IMAGEM*/
+
+img{
+	width: 80vh;
+	height: 50vw;
+
+}
+
+
+/*DIVISÃO*/
+
+#info{
+	float: left;
+	width:50vw;
+}
+#imagem{
+	width: 50vw;
+	margin-left: 55vw;
+	margin-top: -12vh;	
+
+}
+
+img.supremo{
+	width: 100%;
+	height: 100%;
+}
+
+
+#artefato{
+	float: left;
+	width:60vw;
+}
+
+#ordem{
+	
+	margin-left: 60vw;
+}
+
+table{
+	margin-left: 2vw;
+	border: 3px solid #592614;	
+}
+
+table th{
+	margin-left: 2vw;
+	border: 3px solid #592B02;	
+}
+
+table td{
+	margin-left: 2vw;
+	border: 2px solid #592B02;	
+}
+
+
+a{
+	width: 10vh;
+	height: 10vw;
+}
+img.media-object{
+	width: 10vw;
+	height: 15vh;
+}
+
+#linknovo{
+	float: left;
+	width: 30vw;
+}
+
+#imagemlink{
+	margin-left: 20vw;
+	
+}
+
+footer{
+	font-family: 'Karla', sans-serif;
+	color: #EBDAAC;
+	font-size: 14pt;
+	text-align: right;
+	margin-left: 2vw;
+	width: 90vw;
+	font-style: italic;
+}
+
+
+
+iframe{
+		margin-left: 2vw;
+}
+
+
+#videos{
+	
+	width:40vw;
+}
+
+#dublagem{
+
+		margin-left: 2vw;
+		width: 100%;
+		height: 100%;
+}
+#vaeua{
+	margin-left: 2vw;
+
+}
+img.usava{
+	width: 50vw;
+	height: 100%;
+}
+a.siteoficial{
+	margin-left: 2vw;
+	width: 2vw;
+}
