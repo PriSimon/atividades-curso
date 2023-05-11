@@ -1,0 +1,53 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Varela Round', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Tajawal&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Tajawal', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Tajawal&family=Varela+Round&display=swap'); /*font-family: 'Raleway', sans-serif;*/
+
+
+/*OK*/
+
+
+body{
+	background: #BDB8D9;
+}
+
+h1{
+	color: #91F2E9;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: bolder;
+	font-size: 35pt;
+	text-align: center;
+	text-shadow: 4px 3px 6px #3B3451;
+
+}
+
+a{
+	color: #91F2E9;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: bolder;
+	font-size: 35pt;
+	text-align: center;
+	text-shadow: 4px 3px 6px #3B3451;
+	text-decoration: underline;
+}
+
+video{
+	margin-left: 8vw;
+	position: center;
+}
+
+iframe{
+	margin-left: 8vw;
+	position: center;
+	
+}
+footer{
+color: #3B3451;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 12pt;
+	text-align: center;
+	margin-left: 0.8vw;
+	margin-right: 1vw;
+	margin-top: 1.5vh;
+}
+

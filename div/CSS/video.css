@@ -1,0 +1,8 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Varela Round', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Tajawal&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Tajawal', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Tajawal&family=Varela+Round&display=swap'); /*font-family: 'Raleway', sans-serif;*/
+
+body{
+	background: #BDB8D9;
+}
