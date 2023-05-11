@@ -1,0 +1,32 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Fira+Sans:wght@200&display=swap');
+
+body{
+	background-color: #A65858;
+}
+p{
+font-family: 'Aboreto', cursive;
+color: #D99B84;
+font-size: 15pt;
+
+}
+a{
+	color: #400601;
+}
+h1{
+font-family: 'Aboreto', cursive;
+color: #400601;
+font-size: 30pt;
+text-shadow: 4px -2px 4px #D99B84;
+text-decoration: underline;
+text-align: center;
+}
+ul{
+	list-style-type: square;
+	margin-left: 30vw;
+	width: 40vw;
+	background-color: #D99B84;
+	border: 4px groove #8C3B51;
+	font-size: 18pt;
+}

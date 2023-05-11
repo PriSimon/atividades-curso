@@ -1,0 +1,158 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Varela Round', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Tajawal&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Tajawal', sans-serif;*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header{
+	width: 80vw;
+	margin-left: 10vw;
+	height: 10vh;
+	background: #814A21;
+}
+body{
+	
+	background: #D9C3A9;
+}
+
+#logo{
+	margin-left: 3%;
+	width: 10%;
+	height: 10vh;
+	float: left;
+	
+
+
+}
+#logo img{
+	width: 60%;
+	height: 100%;
+	
+
+}
+
+#menu{
+	margin-left: 25%;
+	width: 75%;
+	height: 100%;
+}
+ol.meumenu{
+	list-style-type: none;
+}
+ol.meumenu li{
+	width: 12vw;
+	text-align: center;
+	background: linear-gradient(#D9C3A9,#A67449);
+	border: 2px solid #40301C;
+	float: left;
+	text-transform: uppercase;
+	color: #735438;
+	font-weight: bolder;
+	font-family: 'Varela Round', sans-serif;
+	margin-top: 5vh;
+	font-size: 15pt;
+
+	/*MENU PRINCIPAL*/
+}
+
+ol.meumenu li ul{
+	list-style-type: none;
+	display: none;
+	position: fixed;
+	width: 12vw;
+
+
+	/*SUBMENU QUE APARECE QUANDO PASSAR O MOUSE*/
+}
+
+ol.meumenu li ul li{
+	float: none;
+	width: 12vw;
+	margin-top: 0%;
+	margin-left: -0.1vw;
+}
+
+ol.meumenu li ul li a{
+	background-color: #735438;
+	border: 0px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	color: #A67449;
+}
+
+OL.meumenu li:hover ul{
+	display: block;
+
+	/*REGRA PARA APARECER O SUBMENU*/
+}
+#lateral{
+	margin-left: 10vw;
+	width: 10vw;
+	height: 80vh;
+	background: #A68263;
+	float: left;
+
+	/*LATERAL AJUSTES*/
+}
+
+ol.lat{
+	color: #E4A05C;
+	font-family: 'Tajawal', sans-serif;
+	list-style-type: none;
+	font-size: 18pt;
+
+}
+
+ol.lat li{
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	text-decoration: none;
+	background: linear-gradient(#794421, #733620);
+	text-align: center;
+
+/*CONFIGURAÇÃO DOS BOTÕES LATERAIS*/
+
+}
+
+ol.lat li a{
+	font-family: 'Tajawal', sans-serif;
+	color: #F4D482;
+	font-size: 18pt;
+	text-decoration: none;
+}
+
+#principal{
+	margin-left: 20vw;
+	width: 70vw;
+	height: 80vh;
+
+
+	/*JANELA QUE APARECE O CONTEÚDO*/
+}
+
+#principal iframe{
+	width: 70vw;
+	height: 80vh;
+	border: none;
+
+}
+
+#footer{
+	margin-left: 10vw;
+	width: 80vw;
+	height: 10vh;
+	background-color:#814A21;
+	color: #BF9D7E;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: bolder;
+	font-size: 20pt;
+	text-align: center;
+	padding-top: 1%;
+	text-shadow: 1px 1px 2px #A64208;
+}
+
