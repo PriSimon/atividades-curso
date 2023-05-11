@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); /*font-family: 'Jost', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Red+Hat+Display&display=swap'); /*font-family: 'Red Hat Display', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap'); /*font-family: 'Tilt Prism', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Prism&display=swap'); /*font-family: 'Rubik Iso', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap'); /*font-family: 'Nanum Myeongjo', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Nanum+Myeongjo:wght@700&display=swap'); /*font-family: 'Montserrat Alternates', sans-serif;*/
+
+
+
+#home{
+	width: 80vw;
+	margin-left: 15vw;
+	height: 50vh;
+	animation-name: animacao;
+	animation-duration: 4s;
+	font-family: 'Nanum Myeongjo', serif;
+	margin-top: 10vh;
+	color:  #FF7C61;
+	padding-top: 3vh;
+}
+
+
+h1{
+	font-size: 40pt;
+	text-shadow: 0px 0px 3pt #260202;
+}
+
+
+p{
+	font-size: 30pt;
+	text-shadow: 0px 0px 3pt #260202;
+}
+@keyframes animacao{
+	0%{
+		background-color: #400C08;
+		font-size: 1.5rem;
+		text-indent: 10%;
+		color: #FFC476;
+		font-family: 'Nanum Myeongjo', serif;
+		
+	}
+	45%{
+		background-color: #260202;
+		font-size: 2rem;
+		text-indent: 15%;
+		color: #F2AD94;
+		font-family: 'Nanum Myeongjo', serif;
+		
+	}
+	90%{
+		background-color: #400036;
+		text-indent: 25%;
+		color: #F2CED0;
+		box-shadow: 25px 25px 7px #FF81D0;
+		font-family: 'Nanum Myeongjo', serif;
+		
+	}
+}
