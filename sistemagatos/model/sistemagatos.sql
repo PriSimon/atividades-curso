@@ -1,0 +1,48 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: 18-Maio-2023 às 01:41
+-- Versão do servidor: 5.7.17
+-- PHP Version: 5.6.30
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `sistemagatos`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `gato`
+--
+
+CREATE TABLE `gato` (
+  `cod_gat` int(11) NOT NULL,
+  `nome_gat` varchar(40) NOT NULL,
+  `img_gat` blob NOT NULL,
+  `data_gat` date NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `gato`
+--
+
+INSERT INTO `gato` (`cod_gat`, `nome_gat`, `img_gat`, `data_gat`) VALUES
+(1, 'Pompom', 0x68747470733a2f2f73757065722e616272696c2e636f6d2e62722f77702d636f6e74656e742f75706c6f6164732f323032302f30392f30342d30395f6761746f5f534954452e6a70673f7175616c6974793d39302673747269703d696e666f26773d3130323426726573697a653d313230302c383030, '2010-10-10');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

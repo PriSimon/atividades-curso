@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap'); /*font-family: 'Beth Ellen', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Beth+Ellen&display=swap'); /*font-family: 'Amatic SC', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Beth+Ellen&family=Neucha&display=swap'); /*font-family: 'Neucha', cursive;
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #F2CDAC;
+}
+
+#menu{
+	width: 100vw;
+	min-height: 10vh;
+	background: linear-gradient(#662400,#FF6B1A);
+}
+ul.nav{
+	list-style-type: none;
+}
+ul.nav li{
+	float: left;
+	border-right: 2px solid #F25C05;
+	width: 20vw;
+	padding-top: 0.5vh;
+}
+ul.nav li a{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #F28705;
+	text-shadow: 1px 1px 3px #0D0D0C;
+	margin-left: 1vw;
+}
+
+#principal{
+	width: 100vw;
+	height: 90vh;
+}
+
+#principal iframe{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+
+span{
+	color: #F28705;
+	text-shadow: 1px 1px 2px #0D0D0C;
+	margin-left: 0.5vw;
+
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 4rem;
+	text-decoration: none;
+	color: #F28705;
+	text-shadow: 1px 1px 3px #0D0D0C;
+	text-align: center;
+
+}
+
+p{
+	text-shadow: 0px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 4rem;
+	text-decoration: none;
+	color: #F28705;
+	text-align: center;
+	
+}
+
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #F28705;
+	text-shadow: 1px 1px 2px #0D0D0C;
+	text-align: center;
+	
+
+
+}
+
+h3{
+
+	font-family: 'Neucha', cursive;
+	font-size: 2rem;
+	color: #F28705;
+	text-shadow: 2px 2px 5px #0D0D0C;
+	text-align: center;
+	
+
+}
+
+
+hr{
+	background-color: #FF6B1A;
+	height: 3vh;
+	padding-top: 1vh;
+
+}
+
+hr.cada{
+	height: 0.5vh;
+	border: 2px dashed #F2BE5C;
+	width: 20vw;
+	margin-left: 20vw;
+}
+
+#mapa{
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+
+}
+
+#push{
+
+	width: 60vw;
+	margin-left: 20vw;
+	min-height: 20vh;
+	border: 3px inset  #F25C05;
+	border-radius: 22px;
+	margin-top: 5vh;
+}
+
+#push h2{
+	background-color: #F25C05;
+	border-top-right-radius: 18px;
+	border-top-left-radius: 18px;
+	text-align: center;
+}
+
+p.nome{
+	font-size: 1.8rem;
+}
+
+p.foto{
+	font-size: 1.8rem;
+}
+
+p.data{
+	font-size: 1.8rem;
+}
+
+#push.cadastro{
+	margin-top: 5vh;
+}
+
+#push.cadastro h2{
+	padding-top: 3vh;
+}
+#push p{
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+
+}
+
+#gato{
+
+	width: 60vw;
+	margin-left: 20vw;
+	min-height: 20vh;
+	border: 3px solid #F25C05;
+	border-radius: 2px;
+	margin-top: 5vh;
+	background-color: #662400;
+}
+
+#botaomostra{
+	margin-bottom: 1vh;
+	float: none;
+}
+table{
+	max-width: 90vw;
+	margin-left: 17vw;
+	margin-top: 15vh;
+	height: auto;
+}
+
+table th{
+	border: 1px solid #F25C05;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2rem;
+	color: #F28705;
+	text-shadow: 1px 1px 2px #0D0D0C;
+	text-align: center;
+	background-color: #502000;
+
+}
+
+table td{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #F28705;
+	border: 3px solid #F25C05;
+}
+
+table td.imagem{
+	padding-top: 1vh;
+}
+
+#ord{
+	float: right;
+	margin-right: 0.5vw;
+	font-size: 1.5rem;
+}
+
+#mensagem{
+	
+	margin-left: 43vw;
+}
