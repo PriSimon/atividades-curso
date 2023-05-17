@@ -1,0 +1,73 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*font-family: 'Bebas Neue', cursive; h1*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@200&display=swap'); /* font-family: 'Josefin Sans', sans-serif; P*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@200&family=Jost:ital,wght@1,200&display=swap'); /*font-family: 'Jost', sans-serif; H2*/
+
+body{
+	background-image: url(vitral1.png);
+	background-size: 100vw 100vh;
+	
+		
+
+
+
+}
+
+
+form{
+	background-color: #FDF4E7 ;
+	width: 80vw;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom: 5vh;
+	text-align: center;
+	border: 5px inset #63FD96;
+	border-radius: 1px;
+	
+
+
+
+}
+
+h1{
+
+	font-size: 25pt;
+	font-family: 'Bebas Neue', cursive;
+	color: #88E8F2;
+	text-shadow: 0px 0px 3px #D50DD9;
+	text-align: center;
+	
+}
+
+
+p{
+
+	font-size: 20pt;
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #D50DD9;
+	text-align: center;
+
+}
+
+h2{
+	font-size: 25pt;
+	font-family: 'Jost', sans-serif;
+	color: ##88E8F2;
+	text-shadow: 0px 0px 3px #D50DD9;
+	text-align: center;
+
+
+}
+
+h3{
+	font-size: 25pt;
+	font-family: 'Jost', sans-serif;
+	color: ##88E8F2;
+	text-shadow: 0px 0px 3px #D50DD9;
+	text-align: center;
+	background-color: #FDF4E7;
+	border: 5px inset #63FD96;
+	width: auto;
+	
+}
