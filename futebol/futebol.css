@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Varela Round', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Quicksand&family=Tajawal&family=Ubuntu:wght@500&family=Varela+Round&display=swap'); /*font-family: 'Tajawal', sans-serif;*/
+
+body{
+
+	background-image: url(grama.png);
+	background-size: 100vw 100vh;
+}
+
+form{
+	background-color: #59CBE3;
+	width: 40vw;
+	margin-top: 8vh;
+	margin-left: 28vw;
+	text-align: center;
+	border: 3px inset #63FD96;
+	border-radius: 12px;
+}
+form h1{
+	color: #03A696;
+	font-size: 30pt;
+	font-family: 'Varela Round', sans-serif;
+	text-shadow: 4px 3px 3px #63FD96;
+}
+form input{
+	font-family: 'Tajawal', sans-serif;
+}
+#resultado{
+	background-color: #59CBE3;
+	width: 30vw;
+	height: 55vh;
+	margin-top: 5vh;
+	margin-left: 34vw;
+	text-align: center;
+	border: 3px inset #63FD96;
+	border-radius: 12px;
+}
+
+h2{
+	color: #02524A;
+	font-size: 20pt;
+	font-family:  'Tajawal', sans-serif;
+	text-shadow: 0px 0px 2px #0AF72E;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+
+}
+a{
+	font-family:  'Tajawal', sans-serif;
+}
+p{
+	font-family:  'Tajawal', sans-serif;
+	color: #02524A;
+	font-size: 15pt;
+	font-family:  'Tajawal', sans-serif;
+	margin-top: -2vh;
+}
+
+img{
+	margin-top: 5vh;
+	height: 60%;
+	width: 60%;
+}
