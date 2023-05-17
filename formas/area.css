@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300&family=Tajawal&family=Varela+Round&display=swap'); /*font-family: 'Bebas Neue', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Asul&family=Bebas+Neue&family=Josefin+Sans:wght@200&family=Jost:ital,wght@1,200&display=swap'); /*font-family: 'Asul', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Asul&family=Bebas+Neue&family=Bree+Serif&family=Josefin+Sans:wght@200&family=Jost:ital,wght@1,200&display=swap'); /* font-family: 'Bree Serif', serif;*/
+
+body{
+
+	background-color: #13BA9E;
+
+}
+
+h1{
+	font-size: 30pt;
+	font-family: 'Asul', sans-serif;
+	color: #063B32;
+	text-shadow: 0px 0px 6px #19FAD4;
+}
+
+h2{
+	font-size: 20pt;
+	font-family: 'Bree Serif', serif;
+	color: #063B32;
+	text-shadow: 0px 0px 2px #19FAD4;
+
+}
+
+
+p{
+	font-family: 'Bree Serif', serif;
+	font-size: 18pt;
+	color: #063B32;
+	text-shadow: 0px 0px 2px #19FAD4;
+}
+
+
+form{
+	background-color: #0C7A68;
+	width: 40vw;
+	margin-top: 10vh;
+	margin-left: 28vw;
+	text-align: center;
+	border: 3px inset #19FAD4;
+	border-radius: 12px;
+	height: 60vh;
+}
+
+#resultado{
+	background-color: #0C7A68;
+	width: 40vw;
+	height: 10vh;
+	margin-top: 5vh;
+	margin-left: 28vw;
+	text-align: center;
+	border: 3px inset #19FAD4;
+	border-radius: 25px;
+	color: #063B32;
+	font-size: 40pt;
+	padding-top: 2%;
+	font-family: 'Asul', sans-serif;
+	text-shadow: 0px 0px 3px #19FAD4;
+}
+
+img{
+	
+	filter: drop-shadow(0px 0px 5px #19FAD4);
+}
